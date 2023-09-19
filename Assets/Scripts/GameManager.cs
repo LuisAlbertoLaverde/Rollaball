@@ -4,12 +4,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private int _count;
+    public LevelChange levelChange;
 
     [SerializeField] private TextMeshProUGUI _countText;
     [SerializeField] private GameObject _winTextObject;
 
 
-    // Start is called before the first frame update
     private void Start()
     {
         SetCountText();
@@ -22,6 +22,11 @@ public class GameManager : MonoBehaviour
         if (_count >= 12)
         {
             _winTextObject.SetActive(true);
+
+            if (levelChange != null)
+            {
+                levelChange.ChangeToNextScene();
+            }
         }
     }
     public void IncrementCount()
@@ -29,5 +34,9 @@ public class GameManager : MonoBehaviour
         _count++;
         SetCountText();
     }
+    public void SetLevelChangeReference(LevelChange newLevelChange)
+    {
+        this.levelChange = newLevelChange;
+    }   
 
 }
