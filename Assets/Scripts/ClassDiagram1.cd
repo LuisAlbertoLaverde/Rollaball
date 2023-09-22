@@ -10,7 +10,7 @@
   <Class Name="GameManager">
     <Position X="2.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAIAIEAAACAAAAACAA=</HashCode>
+      <HashCode>AAAAACAAACAAAAAAAAAAAAAAAAAIAIEAAACgAAAACAA=</HashCode>
       <FileName>Assets\Scripts\GameManager.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -33,6 +33,46 @@
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Rotator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelChange">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LevelChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestBodyChatGPT">
+    <Position X="13.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAQAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\ChatGPTForUnity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatGPTForUnity">
+    <Position X="11.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAQAAABJAAAAACIYAAAAAAgAAAAwABAAAA=</HashCode>
+      <FileName>Assets\Scripts\ChatGPTForUnity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResponseBodyChatGPT">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="ResponseBodyChatGPT.Choice" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ChatGPTForUnity.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ResponseBodyChatGPT.Usage" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ChatGPTForUnity.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAQAAEAABAAAAAAAAAAAAAAIAgA=</HashCode>
+      <FileName>Assets\Scripts\ChatGPTForUnity.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
