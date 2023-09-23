@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/labels.uss?fileID=7433441132597879392&amp;guid=ea39cf78d1981814bb0f2ef1d1c86195&amp;type=3#labels" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/buttons.uss?fileID=7433441132597879392&amp;guid=3673028acb37b4242bd325ad6c8eed55&amp;type=3#buttons" />
+    <ui:VisualElement style="flex-grow: 1; flex-shrink: 1; background-image: none; background-color: rgba(0, 0, 0, 0.5);">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: column; align-items: stretch; align-self: auto; width: 40%; background-color: rgba(32, 30, 34, 0.35); justify-content: center;">
+            <ui:Label tabindex="-1" text="Rollable Game Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TittleTxt" class="label-main-tittle" style="-unity-font-style: bold; font-size: 54px; margin-top: 22px; margin-right: 22px; margin-bottom: 22px; margin-left: 22px; padding-top: 11px; padding-right: 11px; padding-bottom: 11px; padding-left: 11px; color: rgb(174, 163, 200);" />
+            <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayBtn" class="button-main-tittle" />
+            <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SettingsBtn" class="button-main-tittle" />
+            <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitBtn" class="button-main-tittle" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
