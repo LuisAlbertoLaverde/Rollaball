@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/buttons.uss?fileID=7433441132597879392&amp;guid=3673028acb37b4242bd325ad6c8eed55&amp;type=3#buttons" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/labels.uss?fileID=7433441132597879392&amp;guid=ea39cf78d1981814bb0f2ef1d1c86195&amp;type=3#labels" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/progress-bar.uss?fileID=7433441132597879392&amp;guid=757605ff70d694c4486a0c5f5038f9ed&amp;type=3#progress-bar" />
+    <ui:VisualElement style="flex-grow: 1; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; align-items: flex-start;">
+        <ui:Label tabindex="-1" text="LOADING" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: auto; font-size: 50px; padding-bottom: 0;" />
+        <ui:ProgressBar value="-0.64" high-value="1" style="width: 150px; height: auto;" />
+    </ui:VisualElement>
+</ui:UXML>

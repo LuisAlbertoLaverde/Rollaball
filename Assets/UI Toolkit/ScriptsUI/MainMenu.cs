@@ -20,12 +20,12 @@ public class MainMenu : MonoBehaviour
 
     private void SettingsButtonOnClicked()
     {
-        Debug.Log("he prsionado Settings para configurar el juego y que se vea lindo todo");
+        Debug.Log("he prsionado Settings para configurar el juego");
     }
 
     private void ExitButtonOnClicked()
     {
         Application.Quit();
-        Debug.Log("he prsionado Quit para salir del juego y que se vea lindo todo");
+        Debug.Log("he presionado Quit para salir del juego");
     }
 }
