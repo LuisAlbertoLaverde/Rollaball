@@ -4,18 +4,19 @@ using UnityEngine.UIElements;
 
 public class MainMenu : MonoBehaviour
 {
+    public LevelChange levelChange;
 
     private void Awake()
     {
         VisualElement root = GetComponent<UIDocument>().rootVisualElement;
-        root.Q<Button>("PlayBtn").clicked += PlayButtonOnClicked;
-        root.Q<Button>("SettingsBtn").clicked += SettingsButtonOnClicked;
-        root.Q<Button>("ExitBtn").clicked += ExitButtonOnClicked;
+        root.Q<Button>("PlayBtn").clicked += () => PlayButtonOnClicked();
+        root.Q<Button>("SettingsBtn").clicked += () => SettingsButtonOnClicked();
+        root.Q<Button>("ExitBtn").clicked += () => ExitButtonOnClicked();
     }
 
     private void PlayButtonOnClicked()
     {
-        SceneManager.LoadScene(1);
+        levelChange.ChangeToNextScene();
     }
 
     private void SettingsButtonOnClicked()
