@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/Styles/buttons.uss?fileID=7433441132597879392&amp;guid=3673028acb37b4242bd325ad6c8eed55&amp;type=3#buttons" />
-    <ui:VisualElement name="Pause-Menu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.2); align-items: center; justify-content: center; align-self: auto; display: none;">
+    <ui:VisualElement name="pause-menu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.2); align-items: center; justify-content: center; align-self: auto; display: none;">
         <ui:Button text="RESUME" parse-escape-sequences="true" display-tooltip-when-elided="true" name="resume-btn" class="button-main-tittle" style="justify-content: center; align-items: auto; width: 420px;" />
         <ui:Button text="BACK TO MAIN MENU" parse-escape-sequences="true" display-tooltip-when-elided="true" name="back-to-main-menu-btn" class="button-main-tittle" style="width: 420px;" />
     </ui:VisualElement>
