@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
 
     private void PlayButtonOnClicked()
     {
-        levelChange.ChangeToNextScene();
+        levelChange.ChangeToNextScene();    
     }
 
     private void SettingsButtonOnClicked()
